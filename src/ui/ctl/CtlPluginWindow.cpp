@@ -879,8 +879,6 @@ namespace lsp
 
         status_t CtlPluginWindow::slot_show_ui_manual(LSPWidget *sender, void *ptr, void *data)
         {
-            CtlPluginWindow *__this = static_cast<CtlPluginWindow *>(ptr);
-
             io::Path path;
             LSPString spath;
             status_t res;
