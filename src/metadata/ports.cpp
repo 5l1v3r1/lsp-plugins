@@ -144,7 +144,6 @@ namespace lsp
 
     const port_item_t octaves[] =
     {
-        { "-2", NULL },
         { "-1", NULL },
         { "0", NULL },
         { "1", NULL },
@@ -155,6 +154,7 @@ namespace lsp
         { "6", NULL },
         { "7", NULL },
         { "8", NULL },
+        { "9", NULL },
         { NULL, NULL }
     };
 
